@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: /docs/docsy-userguide
 title: Docsy Example
 enableRobotsTXT: true
 theme: [docsy]
@@ -28,8 +28,8 @@ menu:
         aria-hidden="true"></i></sup>
 
 services:
-  googleAnalytics:
-    id: UA-00000000-0
+  #googleAnalytics:
+    #id: UA-00000000-0
 
 languages:
   en:
@@ -47,7 +47,7 @@ markup:
 
 params:
   copyright: The Docsy Authors
-  privacy_policy: https://policies.google.com/privacy
+  #privacy_policy: https://policies.google.com/privacy
   version_menu: Releases
   archived_version: false
   version: 0.4.0
@@ -58,9 +58,9 @@ params:
   time_format_blog: Monday, January 02, 2006
   time_format_default: January 2, 2006
   rss_sections: [blog] # TODO: drop since this is the default
-  gcs_engine_id: 011217106833237091527:la2vtv2emlw
+  #gcs_engine_id: 011217106833237091527:la2vtv2emlw
   algolia_docsearch: false
-  offlineSearch: false
+  offlineSearch: true
   offlineSearchSummaryLength: 70
   offlineSearchMaxResults: 10
   prism_syntax_highlighting: false
